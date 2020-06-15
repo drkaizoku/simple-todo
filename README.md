@@ -1,5 +1,22 @@
 # simple-todo
-final year college assignment 
+final year college assignment
+<p>This is a simple to-do app</p>
+<h3>Features of the App</h3>
+<p>Splash Screen</p>
+<p>login/sign-in page with validations</p>
+<p>User Dashboard for navigation</p>
+<p>App info -> about, contact, profile, fragments activity for details.</p>
+<p>Mvvm To-do without ORM</p>
+<p>Mvvm To-do with ORM</p>
+<p>Easy to use -> user friendly design</p>
+<p>Date picker</p>
+<p>Complete/Not complete status with background color</p>
+<p>Delete-> Swipe left/right and delete all at once feature</p>
+<p>Use of Recycle view, list view</p>
+<p>Use of different layouts ex. linear, coordinator, relative.</p>
+<p>Floating action button</p>
+<p>Modern UI Design</p>
+<p>Current Date display and so on</p>
 <h3> App Screenshots </h3>
 <p align=center">
 <img src="images/login_page.JPG" width="100">
