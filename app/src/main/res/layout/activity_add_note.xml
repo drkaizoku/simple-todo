@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0A0A"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/MvvmTheme"
+    tools:context=".OrmMvvm.AddEditNoteActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/caveat_brush"
+        android:gravity="center"
+        android:text="Orm Todo"
+        android:textColor="#ffbd33"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/cormorant_upright"
+        android:gravity="center"
+        android:text="Add/Edit Todo's"
+        android:textColor="#ffbd33"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/cormorant_upright"
+        android:gravity="center"
+        android:text="Note: click calender to view dates and input below"
+        android:textColor="#D81B60"
+        android:textColorHint="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tvLblIsClosed1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/edit_text_title"
+            android:text="Title: "
+            android:textColor="#fff" />
+
+        <EditText
+            android:id="@+id/edit_text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/edit_text_title"
+            android:background="@drawable/backwithborder"
+            android:hint="Title"
+            android:inputType="text"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tvLblIsClosed2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/edit_text_title"
+            android:text="Description: "
+            android:textColor="#fff" />
+
+
+        <EditText
+            android:id="@+id/edit_text_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/backwithborder"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tvLblIsClosed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Is Complete?"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/chkbxIsComplete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/backwithborder"
+            android:hint="Status"
+            android:inputType="text"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvLblTestDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/InputTodoDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/backwithborder"
+            android:hint="Add desired date "
+            android:inputType="none"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:focusable="false"
+            android:clickable="false"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtTodoDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backwithborder"
+            android:ems="10"
+            android:hint="Your selected Date..."
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:inputType="none"
+            android:focusable="false"
+            android:clickable="false"/>
+
+        <Button
+            android:id="@+id/button_openPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Open Date Picker" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Priority: "
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <NumberPicker
+        android:id="@+id/number_picker_priority"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="#fff"
+        android:backgroundTint="#2980b9"
+        android:textColor="#fff"
+        android:textColorHint="#fff">
+
+    </NumberPicker>
+
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Simple Todo</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="not_a_registered_user">Not a Registered User?</string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="email">email</string>
+    <string name="full_name">full_name</string>
+    <string name="app_name_final">Todo Today</string>
+    <!--    <string name="login">Login</string>-->
+</resources>

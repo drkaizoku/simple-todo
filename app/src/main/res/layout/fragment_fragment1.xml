@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDD835">
+
+    <TextView
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/contactColorBack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Fragment Example"
+        android:textSize="25dp"/>
+
+    <TextView
+    android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a simple todo app created by Sujan Aryal. The features of this app is user will be able to add todo update todo as well as delete todo. As per requirements assigned by university this app  \n has everything. along with additional features this app is user friendly and simple everyday todo list holder."/>
+
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background">#EEEDEF</color>
+    <color name="reg_background">#2A363B</color>
+    <color name="profileDark">#292b3d</color>
+    <color name="profileGrayLight">#fafafa</color>
+    <color name="profileStartBlue">#09c6df</color>
+    <color name="profileEndBlue">#0bcce6</color>
+    <color name="contactPrimary">#fff</color>
+    <color name="contactColorBack">#241333</color>
+    <color name="contactColorTitle">#362742</color>
+    <color name="contactColorSubTitle">#c5c9cf</color>
+    <color name="contactColorLayerBack">#8a56ab</color>
+    <color name="contactColorTitleWhite">#fff</color>
+    <color name="contactColorSubTitleWhite">#b795ce</color>
+    <color name="contactHorizontalDivider">#898a56ab</color>
+
+
+</resources>

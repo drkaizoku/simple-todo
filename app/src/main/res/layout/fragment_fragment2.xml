@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0CA33">
+
+    <TextView
+        android:textAlignment="center"
+        android:textColor="@color/contactColorBack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Dashboard  Information Update"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Admin Dashboard is Under construction for now user will be able to login it with using admin username and password. Since it's still in construction Enjoy other features of this App. Todo Today All Right Reserved."/>
+
+
+</FrameLayout>
