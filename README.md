@@ -1,6 +1,7 @@
 # simple-todo
 final year college assignment 
 <h3> App Screenshots </h3>
+<p align=center">
 <img src="images/login_page.JPG" width="100">
 <img src="images/regsiter_page.JPG" width="100">
 <img src="images/error.JPG" width="100">
@@ -18,3 +19,4 @@ final year college assignment
 <img src="images/orm_todolist.JPG" width="100">
 <img src="images/status_color.JPG" width="100">
 <img src="images/orm_datepicker.JPG" width="100">
+</p>
