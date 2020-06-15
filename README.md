@@ -17,6 +17,8 @@ final year college assignment
 <p>Use of different layouts ex. linear, coordinator, relative.</p>
 <p>Floating action button</p>
 <p>Modern UI Design</p>
+<p>Different toast msg and alert dialog box</p>
+<p>Logout Feature</p>
 <p>Current Date display and so on</p>
 <h3> App Screenshots </h3>
 <p align=center">
