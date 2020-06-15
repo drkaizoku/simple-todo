@@ -1,7 +1,7 @@
 # simple-todo
 final year college assignment 
 <h3> App Screenshots </h3>
-<img src="images/login_page.jpg" width="100">
+<img src="images/login_page.JPG" width="100">
 <img src="images/regsiter_page.jpg" width="100">
 <img src="images/error.jpg" width="100">
 <img src="images/dashboard.jpg" width="100">
