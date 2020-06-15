@@ -2,6 +2,7 @@
 final year college assignment
 <p>This is a simple to-do app</p>
 <h3>Features of the App</h3>
+<h4>There is two types of to-do in this app one with orm and another without orm</h4>
 <p>Splash Screen</p>
 <p>login/sign-in page with validations</p>
 <p>User Dashboard for navigation</p>
