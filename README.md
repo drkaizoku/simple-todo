@@ -2,19 +2,19 @@
 final year college assignment 
 <h3> App Screenshots </h3>
 <img src="images/login_page.JPG" width="100">
-<img src="images/regsiter_page.jpg" width="100">
-<img src="images/error.jpg" width="100">
-<img src="images/dashboard.jpg" width="100">
-<img src="images/dashboard_more.jpg" width="100">
-<img src="images/about.jpg" width="100">
-<img src="images/app_info.jpg" width="100">
-<img src="images/contact.jpg" width="100">
-<img src="images/fragment.jpg" width="100">
-<img src="images/profile.jpg" width="100">
-<img src="images/normal_todo.jpg" width="100">
-<img src="images/edit_normal.jpg" width="100">
-<img src="images/todo_list_normal.jpg" width="100">
-<img src="images/orm_addtodo.jpg" width="100">
-<img src="images/orm_todolist.jpg" width="100">
-<img src="images/status_color.jpg" width="100">
-<img src="images/orm_datepicker.jpg" width="100">
+<img src="images/regsiter_page.JPG" width="100">
+<img src="images/error.JPG" width="100">
+<img src="images/dashboard.JPG" width="100">
+<img src="images/dashboard_more.JPG" width="100">
+<img src="images/about.JPG" width="100">
+<img src="images/app_info.JPG" width="100">
+<img src="images/contact.JPG" width="100">
+<img src="images/fragment.JPG" width="100">
+<img src="images/profile.JPG" width="100">
+<img src="images/normal_todo.JPG" width="100">
+<img src="images/edit_normal.JPG" width="100">
+<img src="images/todo_list_normal.JPG" width="100">
+<img src="images/orm_addtodo.JPG" width="100">
+<img src="images/orm_todolist.JPG" width="100">
+<img src="images/status_color.JPG" width="100">
+<img src="images/orm_datepicker.JPG" width="100">
