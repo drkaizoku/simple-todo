@@ -7,7 +7,7 @@ final year college assignment
 <p>login/sign-in page with validations</p>
 <p>User Dashboard for navigation</p>
 <p>App info -> about, contact, profile, fragments activity for details.</p>
-<p>Mvvm To-do without ORM</p>
+<p>Mvvm To-do without ORM.</p>
 <p>Mvvm To-do with ORM</p>
 <p>Easy to use -> user friendly design</p>
 <p>Date picker</p>
