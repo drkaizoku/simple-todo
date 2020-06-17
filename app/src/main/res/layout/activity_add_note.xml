@@ -17,7 +17,7 @@
         android:layout_marginTop="30dp"
         android:fontFamily="@font/caveat_brush"
         android:gravity="center"
-        android:text="Orm Todo"
+        android:text="ORM TODO"
         android:textColor="#ffbd33"
         android:textSize="20sp"
         android:textStyle="bold" />
